@@ -9,7 +9,7 @@ public class WebElementMethod {
 	public WebElement myFindElement(String locator , String value, WebDriver driver) {
 		
 		WebElement webl=null;
-		
+		//search by 
 		if(locator.equals("id"))
 			webl=driver.findElement(By.id(value));
 		else if(locator.equals("tagName"))
