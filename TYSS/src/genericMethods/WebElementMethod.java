@@ -26,6 +26,8 @@ public class WebElementMethod {
 			webl=driver.findElement(By.linkText(value));
 		else if(locator.equals("partialLinkText"))
 			webl=driver.findElement(By.partialLinkText(value));
+		if(webl==null) 
+			System.out.println("Element not found ");
 		
 		return  webl;
 	}
