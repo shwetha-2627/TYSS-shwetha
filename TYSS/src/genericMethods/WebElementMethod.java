@@ -16,7 +16,7 @@ public class WebElementMethod {
 			webl=driver.findElement(By.tagName(value));
 		else if(locator.equals("name"))
 			webl=driver.findElement(By.name(value));
-		else if(locator.equals("className"))//rfygewtiyfgaeu
+		else if(locator.equals("className"))
 			webl=driver.findElement(By.className(value));
 		else if(locator.equals("xpath"))
 			webl=driver.findElement(By.xpath(value));
