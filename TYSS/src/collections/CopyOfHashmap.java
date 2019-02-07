@@ -1,6 +1,5 @@
 package collections;
 
-import java.time.LocalDate;
 import java.util.HashMap;
 
 public class CopyOfHashmap {

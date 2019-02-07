@@ -6,6 +6,7 @@ import java.util.Scanner;
 public class SearchValueInTreemap {
 
 	public static void main(String[] args) {
+		@SuppressWarnings("resource")
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the key");
 		String value = sc.next();
