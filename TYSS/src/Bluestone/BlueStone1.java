@@ -56,7 +56,7 @@ public class BlueStone1 {
 		Thread.sleep(5000);
 		
 		for(int i=0;i<sortedPrice.size();i++)
-		setExcelData("./data/priceList.xlsx", "defaultPrice", i, 1,sortedPrice.get(i).getText() );
+		setExcelData("./data/priceList.xlsx", "defaultPrice", i, 1,sortedPrice.get(i).getText());
 		
 		
 		

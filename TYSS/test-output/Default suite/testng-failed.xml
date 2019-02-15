@@ -3,11 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Bluestone.ChatWithExperts">
+      <class name="extentreport.Demo">
         <methods>
-          <include name="testChat"/>
+          <include name="demoTest"/>
+          <include name="afterTest"/>
         </methods>
-      </class> <!-- Bluestone.ChatWithExperts -->
+      </class> <!-- extentreport.Demo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
