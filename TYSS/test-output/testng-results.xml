@@ -2,27 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="727" started-at="2019-02-11T08:22:28Z" finished-at="2019-02-11T08:22:28Z">
+  <suite name="Suite" duration-ms="34" started-at="2019-02-19T05:07:00Z" finished-at="2019-02-19T05:07:00Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="727" started-at="2019-02-11T08:22:28Z" finished-at="2019-02-11T08:22:28Z">
-      <class name="extentreport.Demo">
-        <test-method status="PASS" signature="demoTest()[pri:0, instance:extentreport.Demo@2b9627bc]" name="demoTest" duration-ms="240" started-at="2019-02-11T08:22:28Z" finished-at="2019-02-11T08:22:28Z">
+    <test name="Test" duration-ms="34" started-at="2019-02-19T05:07:00Z" finished-at="2019-02-19T05:07:00Z">
+      <class name="generalTest.Demo1">
+        <test-method status="PASS" signature="run()[pri:0, instance:generalTest.Demo1@3ecf72fd]" name="run" duration-ms="4" started-at="2019-02-19T05:07:00Z" finished-at="2019-02-19T05:07:00Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- demoTest -->
-        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:extentreport.Demo@2b9627bc]" name="afterTest" is-config="true" duration-ms="458" started-at="2019-02-11T08:22:28Z" finished-at="2019-02-11T08:22:28Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=demoTest status=SUCCESS method=Demo.demoTest()[pri:0, instance:extentreport.Demo@2b9627bc] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- extentreport.Demo -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- run -->
+      </class> <!-- generalTest.Demo1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
